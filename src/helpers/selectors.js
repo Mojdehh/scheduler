@@ -9,3 +9,12 @@ export function getAppointmentsForDay(state, day) {
 
   return appointmentObj;
 }
+
+
+export function getInterview(state, interview) {
+  //if passed an object that contains interviewer then returns a new obj containing interview data
+  const interviewObj = (interview ? {
+    student: interview.student, interviewer: state.interviewers[interview.interviewer]
+  }: null)
+  return interviewObj
+}
