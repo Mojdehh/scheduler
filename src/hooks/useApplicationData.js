@@ -20,18 +20,15 @@ export default function useApplicationData() {
 
 
   // update the remaining spots either by creating or deleting an appointment
-  function updateSpots(state, appointments, id) {
-    // const appDay = state.days.filter(day => day.name === state.day);
-    // // console.log(appDay);
-    // (appointments[id].interview === null ? appDay[0].spots++ : appDay[0].spots-- )
-    // return [...state.days];
+  function updateSpots(state, appointments) {
     const newDays = state.days.map(day => {
+      const newDay = {...day};
       if(day.name === state.day) {
-        day.spots = day.appointments
+        newDay.spots = day.appointments
         .filter(appID => appointments[appID].interview === null)
         .length
       }
-      return day
+      return newDay;
     });
     return newDays;
   }
