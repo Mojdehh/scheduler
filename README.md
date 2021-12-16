@@ -6,7 +6,17 @@ The app is build using React for the front end. The data is persisted by the API
 
 Appointments can be booked between Monday and Friday, from 12 to 5 pm. Students can easily navigate through the days to see free spots and book an appointment with their desired mentor or even edit/cancel a previously booked appointment.
 
+## Final Product
 
+!["Create a new Appointment"](https://github.com/Mojdehh/scheduler/blob/master/docs/Appointment-create.png)
+
+!["Edit and Delete buttons are visible when appointment is hovered"](https://github.com/Mojdehh/scheduler/blob/master/docs/Edit%20and%20delete%20buttons%20when%20appointment%20hovered.png)
+
+!["Confirm Delete to proceed"](https://github.com/Mojdehh/scheduler/blob/master/docs/Appointment-delete-confirm.png)
+
+!["Showing Delete Status"](https://github.com/Mojdehh/scheduler/blob/master/docs/Deleting-status.png)
+
+!["Day is grayed out if there is no free appointment spots"](https://github.com/Mojdehh/scheduler/blob/master/docs/Day-grayed-out-if-no-free-spots.png)
 
 ## Technologies
 
