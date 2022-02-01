@@ -1,6 +1,6 @@
 # Interview Scheduler
 
-Interview Scheudler is a single page application that serves students to book and manage appointments with mentors.
+Interview scheduler is a single page application that serves students to book and manage appointments with mentors.
 
 The app is build using React for the front end. The data is persisted by the API servers using PostgreSQL database and client application communicate with an API server over HTTP, using the JSON format.
 
